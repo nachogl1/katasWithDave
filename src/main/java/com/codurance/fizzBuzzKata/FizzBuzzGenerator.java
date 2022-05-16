@@ -15,7 +15,7 @@ public class FizzBuzzGenerator {
             return "Buzz";
         }
 
-        return "1";
+        return String.valueOf(inputNumber);
     }
 
     private static boolean divisibleByThree(int inputNumber) {

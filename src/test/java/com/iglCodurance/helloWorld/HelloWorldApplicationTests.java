@@ -1,10 +1,10 @@
-package katas.katas;
+package com.iglCodurance.helloWorld;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KatasApplicationTests {
+class HelloWorldApplicationTests {
 
 	@Test
 	void contextLoads() {

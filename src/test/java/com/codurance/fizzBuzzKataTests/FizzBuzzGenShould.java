@@ -25,5 +25,9 @@ public class FizzBuzzGenShould {
         assertThat(result).isEqualTo("Buzz");
     }
 
-
+    @Test
+    void returnFizzBuzzWhenFifteenIsPassed() {
+        String result = FizzBuzzGenerator.generate(15);
+        assertThat(result).isEqualTo("FizzBuzz");
+    }
 }
